@@ -51,3 +51,36 @@ margin: auto;
     margin-right: 10px;
     cursor: pointer;
 }
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* border-radius: 50%; */
+    animation-name: sphere;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform: translateY(60px);
+}
+
+@keyframes sphere {
+    from{
+        background-color: red;
+      
+        transform: translateX(180px);
+      
+    }
+    to{
+        background-color: green;
+      
+        transform: translateZ(180px);
+    }
+}
+
+.boxOne{
+width: 100px;
+height: 100px;
+background-color: red !important;
+}
+.boxTwo{
+background-color: green;
+}

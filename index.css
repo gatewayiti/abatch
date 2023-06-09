@@ -82,3 +82,12 @@ padding: 10px;
 html{
     scroll-behavior: smooth;
 }
+.search{
+    width: 20px;
+    height: 20px;
+}
+.searchBox{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
