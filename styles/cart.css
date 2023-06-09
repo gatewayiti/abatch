@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+width: 1024px;
+margin: auto;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.hero{
+    width: 250px;
+    border-radius: 10px;
+}
+.delete{
+    width: 50px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px  gray;
+}
+.name{
+    font-size: 24px;
+}
+.counter-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.iconBtn{
+    background-color: chartreuse;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}

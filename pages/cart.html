@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cart.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            Cart
+        </div>
+        <div class="card" id="card">
+            <div>
+                <img class="hero" src="https://images.pexels.com/photos/238541/pexels-photo-238541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Phone">
+            </div>
+            <div>
+                <div class="name">One plus</div>
+                <div>Rs. 60,0000</div>
+                <div class="counter-parent">
+                    <div class="iconBtn" onclick="decrement()">-</div>
+                    <div id="count">1</div>
+                    <div  class="iconBtn" Onclick="increment()">+</div>
+                </div>
+            </div>
+            <div>
+                <img onclick="removecard()" class="delete" src="../assets/delete.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="../script/cart.js"></script>
+</body>
+</html>
+
